@@ -118,3 +118,65 @@
 #name = "김효민"
 #age = 23
 #print(f"나의 이름은 {name} 입니다. 나이는 {age} 입니다.")
+
+#문자열 관련 합수
+#문자 개수 세기(count)
+# a = "hobby"
+# a.count("b")
+### 문자열 중 문자 b의 개수를 리턴한다
+
+#위치 알려주기1(find)
+#a = "Python is the best choice"
+#a.find("b")=14
+#a.find("k")=-1
+###문자나 문자열이 존재하지 않는다면 -1을 반환한다
+
+#위치 알려주기2(index)
+#index라는 함수는 문자열 중 찾는 문자가 맨 처름으로 나온 위치를 반환한다
+#a = "Life is too short"
+#a.index("t")=8
+#a.index("k")=Error
+###find 함수랑 다르게 찾는 문자가 없으면 오류가 발생한다
+
+#문자열 삽입(join)
+#넣고싶은 기호나 문자를 ,로 지정했을때
+#print("넣고싶은 기호나 문자".join('abcd))=a,b,c,d
+
+#소문자를 대문자로 바꾸기(upper)
+#a = "hi"
+#a.upper()=HI
+###upper라는 함수는 소문자를 대문자로 바꿔준다 만약 이미 대문자면 아무런 변화도 일어나지 않는다
+
+#대문자를 소문자로 바꾸기(lower)
+#a = "HI"
+#a.lower()=hi
+
+#왼쪽 공백 지우기(lstrip)
+#a = "hi"
+#a.lstrip()='hi '
+###문자열 중 가장 왼쪽에있는 공백들을 모두 지운다
+###lstrip에서 l은 left를 의미한다
+
+#오른쪽 공백 지우기(rstrip)
+#a = "hi"
+#a.rstrip()=' hi'
+###문자열 중 오른쪽에 있는 공백을 모두 지운다
+###rstrip 에서 r은 right를 의미한다
+
+#양쪽 공백 지우기(strip)
+#a = "hi"
+#a.strip()='hi'
+###문자열 양쪽에 있는 공백을 모두 지운다
+
+#문자열 바꾸기(replace)
+#a = "Life is too short"
+#print(a.replace('Life', 'your leg'))
+###replace(바뀌게 될 문자열, 바꿀 문자열)처럼 특정한 값을  다른 값으로 바꿔준다
+
+#문자열 나누기(split)
+#a = "Life is too short"
+#a.split()=Life, is, too, short
+###split함수는 a.split처럼 괄호 안에 아무 값도 넣어 주지 않으면 공백을 기준으로 나눈다
+#b = "a:b:c:d"
+#b.split(':')=a,b,c,d
+###b.split처럼 괄호 안에 특정 값이 있을 경우에는 괄호 안의 값을 구분하여 문자열을 나눈다
