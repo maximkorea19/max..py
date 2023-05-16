@@ -1,6 +1,5 @@
-a = {1:'a'}
-a[2] = 'b'
-a[3] = 'c'
-a['name'] = 'hyomin'
-del a['name']
-print(a)
+dic = {'name':'hyomin','phone':'010 1234 1234','birth':'0331'}
+dic.keys()
+dic.values()
+dic.items()
+print('age' in dic)
